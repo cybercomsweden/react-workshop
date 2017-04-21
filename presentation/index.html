@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>React Workshop</title>
+  <meta name="author" content="Cybercom Group AB">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="node_modules/reveal.js/css/theme/night.css">
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="node_modules/reveal.js/lib/css/zenburn.css">
+  <style>
+    body {
+      background-image: url(assets/react-logo-dark.svg);
+      background-repeat: no-repeat;
+      background-size: 50% auto;
+      background-position: -25% -60%;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <img style="border: 0; background: none;" src="assets/react_logo_wordmark.png">
+        <h2>Workshop</h2>
+      </section>
+      <section data-markdown="slide-example.md"
+         data-separator="^\n\n\n"
+         data-separator-vertical="^\n\n"
+         data-separator-notes="^Note:"
+         data-charset="utf-8">
+      </section>
+      <section>
+        <h2>Lab 4</h2>
+        <iframe height='500' scrolling='no' title='React - Fetch github json boilerplate' src='//codepen.io/damoberg/embed/XRdQRE/?height=395&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/damoberg/pen/XRdQRE/'>React - Fetch github json boilerplate</a> by damoberg (<a href='http://codepen.io/damoberg'>@damoberg</a>) on <a href='http://codepen.io'>CodePen</a>.
+        </iframe>
+      </section>
+    </div>
+  </div>
+  <script src="node_modules/reveal.js/lib/js/head.min.js"></script>
+  <script src="node_modules/reveal.js/js/reveal.js"></script>
+  <script>
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+    dependencies: [
+      { src: 'node_modules/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'node_modules/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'node_modules/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'node_modules/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'node_modules/reveal.js/plugin/zoom-js/zoom.js', async: true },
+      // { src: 'node_modules/reveal.js/plugin/notes/notes.js', async: true }
+    ]
+  });
+</script>
+</body>
+</html>

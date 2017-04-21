@@ -1,0 +1,11 @@
+{
+  "name": "react-workshop-presentation",
+  "version": "0.0.1",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer 8000"
+  },
+  "dependencies": {
+    "reveal.js": "^3.4.1"
+  }
+}
