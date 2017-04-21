@@ -4,8 +4,5 @@
   "main": "index.html",
   "scripts": {
     "start": "python -m SimpleHTTPServer 8000"
-  },
-  "dependencies": {
-    "reveal.js": "^3.4.1"
   }
 }
