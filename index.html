@@ -17,20 +17,109 @@
       background-size: 50% auto;
       background-position: -25% -60%;
     }
+    .reset-img {
+      border: 0 !important;
+      background: none !important;
+      box-shadow: none !important;
+    }
   </style>
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
       <section>
-        <img style="border: 0; background: none;" src="resources/assets/react_logo_wordmark.png">
+        <img class="reset-img" src="resources/assets/react_logo_wordmark.png">
         <h2>Workshop</h2>
+        <p>2017</p>
       </section>
-      <section data-markdown="slide-example.md"
-         data-separator="^\n\n\n"
-         data-separator-vertical="^\n\n"
-         data-separator-notes="^Note:"
-         data-charset="utf-8">
+      <section>
+        <h2>Agenda</h2>
+        <p class="fragment">Introduction</p>
+        <p class="fragment">Examples</p>
+        <p class="fragment">Coding</p>
+      </section>
+      <section>
+        <h2>What is React?</h2>
+        <blockquote cite="https://facebook.github.io/react/">
+          "A JavaScript library for building user interfaces"
+        </blockquote>
+      </section>
+      <section>
+        <h2>Why is it worth knowing about?</h2>
+        <ul>
+          <li class="fragment">Very popular in lots of companies</li>
+          <li class="fragment">Used in Web, Mobile and VR</li>
+          <li class="fragment">Simplifies building complex user interfaces</li>
+          <li class="fragment">Very attractive in the job market</li>
+          <li class="fragment">We really like it!</li>
+        </ul>
+      </section>
+      <section>
+        <h2>So lets dive in!</h2>
+      </section>
+      <section>
+        <h2>But first...<br>A note about JavaScript</h2>
+        <p class="fragment">ES6 usage is rampant in our examples</p>
+      </section>
+      <section>
+        For example
+        <h2>ES6 Arrow functions</h2>
+        <pre><code class="javascript" data-trim>
+          const alwaysTrue = function () {
+            return true;
+          }
+
+          // Can be written in ES6 as
+
+          const alwaysTrue = () => true;
+        </code></pre>
+      </section>
+      <section>
+        <h2>Which is great in callback functions</h2>
+        <pre><code class="javascript" data-trim>
+          onClick(function(event) {
+            return event.target.value;
+          });
+
+          // Becomes this when using arrow functions
+
+          onClick(event => event.taget.value);
+        </code></pre>
+      </section>
+      <section>
+        <h2>Enough is enough, show me some React!</h2>
+      </section>
+      <section>
+        <section data-markdown="slides/first-react-example.md"
+          data-separator="^\n\n\n"
+          data-separator-vertical="^\n\n"
+          data-separator-notes="^Note:"
+          data-charset="utf-8">
+        </section>
+         <section>
+          <h2>Actually</h2>
+          <iframe height='500' scrolling='no' title='WjxMWg' src='//codepen.io/damoberg/embed/WjxMWg/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/damoberg/pen/WjxMWg/'>WjxMWg</a> by damoberg (<a href='http://codepen.io/damoberg'>@damoberg</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
+        </section>
+      </section>
+      <section>
+        <h2>Time to test it out!</h2>
+      </section>
+      <section>
+        <h2>Lab 1</h2>
+        <h3>Create your first component</h3>
+      </section>
+
+
+      <!-- ********************************************* -->
+      <section>
+        <h2>Component based</h2>
+        <p>There are different ways you can create components</p>
+      </section>
+      <section data-markdown="slides/ways-of-the-component.md"
+        data-separator="^\n\n\n"
+        data-separator-vertical="^\n\n"
+        data-separator-notes="^Note:"
+        data-charset="utf-8">
       </section>
       <section>
         <h2>Lab 4</h2>
@@ -54,7 +143,7 @@
       { src: 'resources/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
       { src: 'resources/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
       { src: 'resources/reveal.js/plugin/zoom-js/zoom.js', async: true },
-      // { src: 'resources/reveal.js/plugin/notes/notes.js', async: true }
+      { src: 'resources/reveal.js/plugin/notes/notes.js', async: true }
     ]
   });
 </script>
