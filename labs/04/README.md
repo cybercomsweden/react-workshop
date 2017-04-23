@@ -1,4 +1,4 @@
-# Time to fetch some data
+# Lab 4 - Time to fetch some data
 
 ## Boilerplate 
 [https://codepen.io/damoberg/pen/XRdQRE](https://codepen.io/damoberg/pen/XRdQRE)

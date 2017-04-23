@@ -1,10 +1,8 @@
-# React Workshop
+# Lab 2 - TBD Props
 
-## 1 - Creating your very first component
+[Use this boilerplate to get started](TBD)
 
-[CodePen boilerplate](https://codepen.io/damoberg/pen/OmXBKv?editors=0010)
-
-### 1-1 Basic task
+## 1-1 Basic task
 In this task you will learn how to create a component. The component is to be very simple and should have the following features implemented:
 
 - It should take one `prop` called name
@@ -16,7 +14,7 @@ In order to achieve this, look at the following link:
 
 (Stuck? [Peak here](http://codepen.io/albinhallden/pen/MmKmjM))
 
-### 1-2 Second task
+## 1-2 Second task
 Now you know how to create a component. Lets crack the following problem:
 We now want to be able to say: 
 

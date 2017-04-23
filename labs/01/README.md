@@ -1,6 +1,8 @@
-# Lab 1
+# Lab 1 - Create your first component
 
-## Create your first component
+[Use this boilerplate to get started](https://codepen.io/damoberg/pen/OmXBKv)
+
+## Information
 
 In this lab you will learn how to create a component. 
 
@@ -27,10 +29,8 @@ const MyComponent = () => <div>Great!</div>;
 
 Create a component that renders "Hello World".
 
-## [Open this boilerplate to get started](https://codepen.io/damoberg/pen/OmXBKv)
+___
 
-----------
-
-Some helpful links: 
+## Helpful links
 - [React Component documentation](https://facebook.github.io/react/docs/react-component.html)
 - [Final solution - peak here](https://codepen.io/damoberg/pen/jmrQwo)
