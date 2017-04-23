@@ -1,4 +1,4 @@
-## Full expressiveness of JavaScript
+## Full expressiveness of JavaScript in components
 
 JavaScript statements are put inside of `{ }`
 

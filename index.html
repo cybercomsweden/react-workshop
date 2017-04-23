@@ -30,13 +30,14 @@
       <section>
         <img class="reset-img" src="resources/assets/react_logo_wordmark.png">
         <h2>Workshop</h2>
-        <p>2017</p>
+        <p>Slides: <a href="https://goo.gl/bPBbiy" target="__blank">goo.gl/bPBbiy</a></p>
       </section>
       <section>
         <h2>Agenda</h2>
+        <p class="fragment">Fika</p>
         <p class="fragment">Introduction</p>
         <p class="fragment">Examples</p>
-        <p class="fragment">Coding</p>
+        <p class="fragment">Coding!</p>
       </section>
       <section>
         <h2>What is React?</h2>
@@ -75,7 +76,8 @@
         </code></pre>
       </section>
       <section>
-        <h2>Which is great in callback functions</h2>
+        <h3>Very short syntax</h3>
+        <p>Which is great in callback functions</p>
         <pre><code class="javascript" data-trim>
           onClick(function(event) {
             return event.target.value;
@@ -84,6 +86,17 @@
           // Becomes this when using arrow functions
 
           onClick(event => event.taget.value);
+        </code></pre>
+      </section>
+      <section>
+        <h3>ES6 Variable declarations</h3>
+        <pre><code class="javascript" data-trim>
+          var foo = 123;
+          let baz = 123; // Block scoped
+          const bar = 123; // Block scoped, cannot be reassigned
+
+          function Boo() {};
+          class Far {}; // "Special type" of function, has a constructor
         </code></pre>
       </section>
       <section>
@@ -98,8 +111,11 @@
         </section>
          <section>
           <h2>Actually</h2>
-          <iframe height='500' scrolling='no' title='WjxMWg' src='//codepen.io/damoberg/embed/WjxMWg/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/damoberg/pen/WjxMWg/'>WjxMWg</a> by damoberg (<a href='http://codepen.io/damoberg'>@damoberg</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
+          <iframe height='500' scrolling='no' title='WjxMWg' src='//codepen.io/damoberg/embed/WjxMWg/?height=500&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/damoberg/pen/WjxMWg/'>WjxMWg</a> by damoberg (<a href='http://codepen.io/damoberg'>@damoberg</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
         </section>
+      </section>
+      <section>
+        <h2>HTML in JavaScript?</h2>
       </section>
       <section data-markdown="slides/jsx1.md"
         data-separator="^\n\n\n"
@@ -120,15 +136,15 @@
         <section>
           <h1>Lab 1</h1>
           <p>Create your first component</p>
-          <h2><a href="https://goo.gl/yP1J04" target="__blank">goo.gl/yP1J04</a></h1>
+          <h2><a href="https://goo.gl/tKtNxn" target="__blank">goo.gl/tKtNxn</a></h1>
         </section>
         <section>
           <h2>Lab 1</h2>
-          <iframe height='500' scrolling='no' title='Lab 1' src='//codepen.io/damoberg/embed/OmXBKv/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/damoberg/pen/OmXBKv/'>Lab 1</a> by damoberg (<a href='http://codepen.io/damoberg'>@damoberg</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
+          <iframe height='500' scrolling='no' title='Lab 1' src='//codepen.io/damoberg/embed/OmXBKv/?height=500&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/damoberg/pen/OmXBKv/'>Lab 1</a> by damoberg (<a href='http://codepen.io/damoberg'>@damoberg</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
         </section>
         <section>
           <h2>Lab 1 - solution</h2>
-          <iframe height='500' scrolling='no' title='Lab 1 - solution' src='//codepen.io/damoberg/embed/jmrQwo/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/damoberg/pen/jmrQwo/'>Lab 1 - solution</a> by damoberg (<a href='http://codepen.io/damoberg'>@damoberg</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
+          <iframe height='500' scrolling='no' title='Lab 1 - solution' src='//codepen.io/damoberg/embed/jmrQwo/?height=500&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/damoberg/pen/jmrQwo/'>Lab 1 - solution</a> by damoberg (<a href='http://codepen.io/damoberg'>@damoberg</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
         </section>
       </section>
 
@@ -136,20 +152,25 @@
         <h2>How do you pass data to components?</h2>
         <h3 class="fragment">Via `props`</h3>
       </section>
-      <section>
-        <h2>TBD Props example</h2>
+      <section data-markdown="slides/props1.md"
+        data-separator="^\n\n\n"
+        data-separator-vertical="^\n\n"
+        data-separator-notes="^Note:"
+        data-charset="utf-8">
       </section>
       <section data-background-color="#444">
         <section>
           <h1>Lab 2</h1>
           <p>Use props to pass data</p>
-          <h2><a href="" target="__blank">https://goo.gl/TBD</a></h1>
+          <h2><a href="https://goo.gl/fyk14n" target="__blank">goo.gl/fyk14n</a></h1>
         </section>
         <section>
           <h2>Lab 2</h2>
+          <iframe height='500' scrolling='no' title='Lab 2' src='//codepen.io/damoberg/embed/rmLQbj/?height=500&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/damoberg/pen/rmLQbj/'>Lab 2</a> by damoberg (<a href='http://codepen.io/damoberg'>@damoberg</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
         </section>
         <section>
           <h2>Lab 2 - solution</h2>
+          <iframe height='500' scrolling='no' title='Lab 2 - solution' src='//codepen.io/damoberg/embed/YVWRbj/?height=500&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/damoberg/pen/YVWRbj/'>Lab 2 - solution</a> by damoberg (<a href='http://codepen.io/damoberg'>@damoberg</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
         </section>
       </section>
 
@@ -158,50 +179,87 @@
         <h3 class="fragment">Via `state`</h3>
       </section>
       <section>
-        <h2>TBD Show how state works</h2>
+        <h2>Component state</h2>
+        <p class="fragment">Each component can have its own state</p>
+        <p class="fragment">State can be passed down to other components</p>
+      </section>
+      <section data-markdown="slides/state1.md"
+        data-separator="^\n\n\n"
+        data-separator-vertical="^\n\n"
+        data-separator-notes="^Note:"
+        data-charset="utf-8">
+      </section>
+      <section data-markdown="slides/state2.md"
+        data-separator="^\n\n\n"
+        data-separator-vertical="^\n\n"
+        data-separator-notes="^Note:"
+        data-charset="utf-8">
       </section>
       <section data-background-color="#444">
         <section>
           <h1>Lab 3</h1>
           <p>Use state to make application dynamic</p>
-          <h2><a href="" target="__blank">https://goo.gl/TBD</a></h1>
+          <h2><a href="https://goo.gl/xSTQln" target="__blank">goo.gl/xSTQln</a></h1>
         </section>
         <section>
           <h2>Lab 3</h2>
+          <iframe height='500' scrolling='no' title='Lab 3' src='//codepen.io/damoberg/embed/oWLVdG/?height=500&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/damoberg/pen/oWLVdG/'>Lab 3</a> by damoberg (<a href='http://codepen.io/damoberg'>@damoberg</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
         </section>
         <section>
           <h2>Lab 3 - solution</h2>
+          <iframe height='500' scrolling='no' title='Lab 3 - solution' src='//codepen.io/damoberg/embed/qmNvMX/?height=500&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/damoberg/pen/qmNvMX/'>Lab 3 - solution</a> by damoberg (<a href='http://codepen.io/damoberg'>@damoberg</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
         </section>
       </section>
 
       <section>
-        <h2>TBD Async</h2>
+        <h2>How to think "in React" when building applications?</h2>
       </section>
-      <section data-background-color="#444">
-        <section>
-          <h1>Lab 4</h1>
-          <p>Async stuff</p>
-          <h2><a href="" target="__blank">https://goo.gl/TBD</a></h1>
-        </section>
-        <section>
-          <h2>Lab 3</h2>
-        </section>
-        <section>
-          <h2>Lab 3 - solution</h2>
-        </section>
-      </section>
-
-      <!-- TBI -->
       <section>
-        <h2>How do you build bigger applications?</h2>
+        <h2>Create a static prototype of the application</h2>
+        <p>Could be on paper, whiteboard or a HTML prototype</p>
       </section>
       <section>
         <img src="resources/assets/componentize-before.png">
       </section>
       <section>
+        <h2>Break the UI into components</h2>
+        <p>Try to see how the data flows through the application</p>
+        <p>"Data down, actions up"</p>
+      </section>
+      <section>
         <img src="resources/assets/componentize-after.png">
       </section>
+      <section>
+        <h2>How does the data flow through the app?</h2>
+        <p>Which components has a shared state?</p>
+        <p>"Data down, actions up"</p>
+      </section>
 
+      <section>
+        <h2>TBD How to handle async operations</h2>
+      </section>
+      <section data-background-color="#444">
+        <section>
+          <h1>Lab 4</h1>
+          <p>Async stuff</p>
+          <h2><a href="https://goo.gl/9h3n2I" target="__blank">goo.gl/9h3n2I</a></h1>
+        </section>
+        <section>
+          <h2>Lab 4</h2>
+        </section>
+        <section>
+          <h2>Lab 4 - solution</h2>
+        </section>
+      </section>
+
+      <!-- TBI -->
+
+      <section data-background-iframe="https://codepen.io/albinhallden/full/BRzprb/">
+      </section>
+
+      <section data-background-image="https://media.giphy.com/media/8ZVP2yAQKjOyQ/giphy.gif">
+        <h2>See you!</h2>
+      </section>
 
     </div>
   </div>

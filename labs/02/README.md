@@ -1,25 +1,11 @@
-# Lab 2 - TBD Props
+# Lab 2 - Pass props to components
 
-[Use this boilerplate to get started](TBD)
+In this lab you will learn how to pass props into components.
 
-## 1-1 Basic task
-In this task you will learn how to create a component. The component is to be very simple and should have the following features implemented:
+[Use this boilerplate to get started](https://codepen.io/damoberg/pen/rmLQbj?editors=0010) or reuse the CodePen from lab 1.
 
-- It should take one `prop` called name
-- It should have one function only, the `render()` function
-- The render function should output the following: `Hello {name}` where `{name}` should be the prop sent in to the component. 
+Change so that you can pass a name to the Hello component as a `prop`.
 
-In order to achieve this, look at the following link: 
-[https://facebook.github.io/react/](https://facebook.github.io/react/)
-
-(Stuck? [Peak here](http://codepen.io/albinhallden/pen/MmKmjM))
-
-## 1-2 Second task
-Now you know how to create a component. Lets crack the following problem:
-We now want to be able to say: 
-
-`Hello {Firstname} {Lastname}`. 
-
-But instead of just sending in a new prop to the existing component. Let's make a `family`-component where we can add many different firstnames but with the same last name.
-
-(Sneak peak: [Finished solution](https://codepen.io/albinhallden/pen/rmxpzq))
+## Helpful links
+- [Component and props](https://facebook.github.io/react/docs/components-and-props.html)
+- [Finished solution - peak here](https://codepen.io/damoberg/pen/YVWRbj?editors=0010)

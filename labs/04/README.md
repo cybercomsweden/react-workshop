@@ -4,7 +4,7 @@
 [https://codepen.io/damoberg/pen/XRdQRE](https://codepen.io/damoberg/pen/XRdQRE)
 
 ## Test definition
-We are about to fetch data for our React application using the `fetch()` feature (available in newser browsers).
+We are about to fetch data for our React application using the `fetch()` feature (available in newer browsers).
 
 - Add following url to the `fetch()` function 
 ```
