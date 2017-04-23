@@ -15,6 +15,7 @@ https://api.github.com/repos/cybercomsweden/react-workshop/contents/random-json/
 
 ## Need help? Check out the following links
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Introdution to Fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
 - [Send in state propery as props](https://facebook.github.io/react/docs/state-and-lifecycle.html#adding-local-state-to-a-class)
 
 ___
