@@ -9,3 +9,5 @@ class HelloWorld extends React.Component {
 
 ReactDOM.render(<HelloWorld />,  document.getElementById('app'));
 ```
+
+JavaScript mixed with HTML?
