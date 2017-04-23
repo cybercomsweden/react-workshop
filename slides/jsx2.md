@@ -1,6 +1,6 @@
-## Introducing JSX
+## Full expressiveness of JavaScript
 
-May remind you of a template language, but comes with the full expressiveness of JavaScript
+JavaScript statements are put inside of `{ }`
 
 ```javascript
 function getName() {

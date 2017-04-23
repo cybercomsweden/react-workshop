@@ -1,36 +1,36 @@
-# React Workshop
+# Lab 1
 
-## 1 - Creating your very first component
+## Create your first component
 
-Boilerplate: [http://codepen.io/albinhallden/pen/ZKQegZ](http://codepen.io/albinhallden/pen/ZKQegZ)
+In this lab you will learn how to create a component. 
 
-### 1-1 Basic task
-In this task you will learn how to create a component. The component is to be very simple and should have the following features implemented:
+Components can be created in 3 different ways:
 
-- It should take one `prop` called name
-- It should have one function only, the `render()` function
-- The render function should output the following: `Hello {name}` where `{name}` should be the prop sent in to the component. 
+```javascript
+// 1
+class MyComponent extends React.Component {
+  render() {
+    return <div>Cats</div>;
+  }
+}
 
-In order to achieve this, look at the following link: 
-[https://facebook.github.io/react/](https://facebook.github.io/react/)
+// 2
+const MyComponent = React.createClass({
+  render() {
+    return <div>Are</div>;
+  }
+})
 
-(Stuck? Peak here: [http://codepen.io/albinhallden/pen/MmKmjM](http://codepen.io/albinhallden/pen/MmKmjM))
+// 3
+const MyComponent = () => <div>Great!</div>;
+```
 
-### 1-2 Second task
-Now you know how to create a component. Lets crack the following problem:
-We now want to be able to say: 
+Create a component that renders "Hello World".
 
-`Hello {Firstname} {Lastname}`. 
+## [Open this boilerplate to get started](https://codepen.io/damoberg/pen/OmXBKv)
 
-But instead of just sending in a new prop to the existing component. Let's make a `family`-component where we can add many different firstnames but with the same last name.
+----------
 
-(Sneak peak: [https://codepen.io/albinhallden/pen/rmxpzq](https://codepen.io/albinhallden/pen/rmxpzq))
-
-## X - Async
-
-Hämta data, uppdatera state och presentera det
-
-## X - 
-
-
-- Dra in bootstrap eller annat CSS
+Some helpful links: 
+- [React Component documentation](https://facebook.github.io/react/docs/react-component.html)
+- [Final solution - peak here](https://codepen.io/damoberg/pen/jmrQwo)
