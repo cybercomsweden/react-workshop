@@ -1,6 +1,6 @@
 ## How to use state
 
-Initialise it via the component constructor
+Initialised via the component constructor
 
 ```javascript
 class MyComponent extends React.Component {
