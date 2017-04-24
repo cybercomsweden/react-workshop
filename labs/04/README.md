@@ -8,7 +8,7 @@ We are about to fetch data for our React application using the `fetch()` feature
 
 - Add following url to the `fetch()` function 
 ```
-https://api.github.com/repos/cybercomsweden/react-workshop/contents/random-json/us.json
+https://api.github.com/repos/cybercomsweden/react-workshop/contents/labs/04/us.json
 ```
 - Add the component `JsonPrinter` to the render function in the `Application`
   - Dont forget to send in the state property `json` to the `JsonPrinter` as a property. 
