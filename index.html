@@ -58,7 +58,7 @@
         <h2>Why is it worth knowing about?</h2>
         <ul>
           <li class="fragment">Very popular in lots of companies</li>
-          <li class="fragment">Used in Web, Mobile and VR</li>
+          <li class="fragment">Used in Web, Mobile, VR and hopefully AR</li>
           <li class="fragment">Simplifies building complex user interfaces</li>
           <li class="fragment">Very attractive in the job market</li>
           <li class="fragment">We really like it!</li>
@@ -173,7 +173,7 @@
         </section>
         <section>
           <h2>Lab 1 - Solution</h2>
-          <iframe height='265' scrolling='no' title='Task One _Solution' src='//codepen.io/Hagerstrom/embed/XzgrvL/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Hagerstrom/pen/XzgrvL/'>Task One _Solution</a> by Daniel Hägerström (<a href='https://codepen.io/Hagerstrom'>@Hagerstrom</a>) on <a href='https://codepen.io'>CodePen</a>.
+          <iframe height='500' scrolling='no' title='Task One _Solution' src='//codepen.io/Hagerstrom/embed/XzgrvL/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Hagerstrom/pen/XzgrvL/'>Task One _Solution</a> by Daniel Hägerström (<a href='https://codepen.io/Hagerstrom'>@Hagerstrom</a>) on <a href='https://codepen.io'>CodePen</a>.
           </iframe>
         </section>
       </section>
@@ -230,6 +230,29 @@
         data-separator-notes="^Note:"
         data-charset="utf-8">
       </section>
+      <section>
+          <h4>Different types of components</h4>
+          Stateless (functional)
+          <pre><code class="javascript" data-trim>
+          const Hello = ({you}) => (<div>Hello, {you}!</div>)
+          </code></pre>
+          Stateful (class)
+          <pre><code class="javascript" data-trim>
+          class Hello extends React.Component {
+            constructor(props) {
+              super(props);
+            }
+                 
+            render() {
+              return(
+                <div>
+                  Hello {props}
+                </div>
+              )
+            }
+          }
+          </code></pre>
+      </section>
       <section data-background-color="#444">
         <section>
           <h1>Lab 3</h1>
@@ -283,7 +306,8 @@
       </section>
       <section>
         <h2>Fetch example</h2>
-        <iframe height='500' scrolling='no' title='WjxBQE' src='//codepen.io/albinhallden/embed/WjxBQE/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/albinhallden/pen/WjxBQE/'>WjxBQE</a> by Albin Halldén (<a href='http://codepen.io/albinhallden'>@albinhallden</a>) on <a href='http://codepen.io'>CodePen</a>.</iframe>
+        <iframe height='500' scrolling='no' title='Task Four _Solution' src='//codepen.io/Hagerstrom/embed/oowjzz/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Hagerstrom/pen/oowjzz/'>Task Four _Solution</a> by Daniel Hägerström (<a href='https://codepen.io/Hagerstrom'>@Hagerstrom</a>) on <a href='https://codepen.io'>CodePen</a>.
+        </iframe>
       </section>
 
       <section data-background-color="#444">
@@ -300,7 +324,6 @@
         <section>
           <h2>Lab 4 - solution</h2>
           <iframe height='500' scrolling='no' title='Task Four _Solution' src='//codepen.io/Hagerstrom/embed/oowjzz/?height=265&theme-id=0&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/Hagerstrom/pen/oowjzz/'>Task Four _Solution</a> by Daniel Hägerström (<a href='https://codepen.io/Hagerstrom'>@Hagerstrom</a>) on <a href='https://codepen.io'>CodePen</a>.
-          </iframe>
           </iframe>
         </section>
         <section>
@@ -319,16 +342,6 @@
           </iframe>
         </section>
       </section>
-
-      <section>
-        <h1>Final task</h1>
-        <p>We don't want to leave before we get a high five from all of you! 🖐</p>
-        <h2><a href="https://goo.gl/zuxybX" target="__blank">goo.gl/zuxybX</a></h1>
-      </section>
-
-      <section data-background-iframe="https://codepen.io/albinhallden/full/BRzprb/">
-      </section>
-
       <section data-background-image="https://media.giphy.com/media/8ZVP2yAQKjOyQ/giphy.gif">
         <h2>See you!</h2>
       </section>
