@@ -1,11 +1,11 @@
-## Hello World
+## Application
 
 ```javascript
-class HelloWorld extends React.Component {
+class Application extends React.Component {
   render() {
-    return <div>Hello World</div>;
+    return <div>Welcome to React</div>;
   }
 }
 
-ReactDOM.render(<HelloWorld />,  document.getElementById('app'));
+ReactDOM.render(<Application />,  document.getElementById('app'));
 ```
