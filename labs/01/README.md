@@ -2,7 +2,7 @@
 
 In this lab you will learn how to create a component. 
 
-[Use this boilerplate to get started](https://codepen.io/damoberg/pen/OmXBKv)
+[Use this boilerplate to get started](https://codepen.io/Hagerstrom/pen/KyqPBR)
 
 Components can be created in 3 different ways:
 
@@ -29,7 +29,7 @@ Create a component that renders "Hello World".
 
 ## Helpful links
 - [Component documentation](https://facebook.github.io/react/docs/react-component.html)
-- [Finished solution - peak here](https://codepen.io/damoberg/pen/jmrQwo)
+- [Finished solution - peak here](https://codepen.io/Hagerstrom/pen/XzgrvL)
 
 ## Extra challange if you finish fast
 
